@@ -19,14 +19,13 @@ p{
 
 }
 .btn:hover{
-    border: 3px solid #fff;
-    padding: 10px 30px;
+    border-color:#fff;
     color: #fff;
-    font-size: 14px;
-    line-height: 20px;
-    text-transform: uppercase;
-    font-weight: bold;
-    letter-spacing: .1em;
+}
+
+.btn.btn-preto:hover{
+    color: #000;
+    border-color: #000;
 }
 .subtitulo{
     font-size: 24px;
@@ -160,4 +159,14 @@ p{
 .produtos_icone{
     background: #000;
     padding: 25px;
+}
+
+.call{
+    padding-top: 40px;
+    text-align: center;
+    clear: both;
+}
+
+.call p{
+    margin-bottom: 20px;
 }

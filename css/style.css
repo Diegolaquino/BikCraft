@@ -51,6 +51,26 @@ img{
     background: #000;
     margin: 10px auto 10px auto;
 }
+
+.subtitulo-interno{
+    font-size: 24px;
+    line-height: 30px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    color: #000;
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.subtitulo-interno:after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #000;
+    margin: 8px 0;
+}
 /*header_menu*/
 .header {
     position: fixed;
@@ -82,6 +102,10 @@ img{
 }
 
 .header_menu ul li a:hover{
+    color: #fff;
+}
+
+.header_menu ul li a.menu_ativo{
     color: #fff;
 }
 
@@ -130,6 +154,36 @@ img{
     font-size: 14px;
     letter-spacing: .1em;
 }
+
+/* introducao interna */
+.introducao-interna{
+    width: 100%;
+    margin-top: 92px;
+    height: 160px;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    padding-top: 30px;
+}
+
+.introducao-interna h1{
+    font-size: 36x;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    
+}
+
+.introducao-interna h1::after{
+    content: "";
+    display: block;
+    width: 60px;
+    height: 3px;
+    background: #fff;
+    margin: 6px auto 10px auto;
+}
+
+/* produtos */
 
 .produtos{
     padding: 60px 0;
@@ -224,6 +278,8 @@ img{
 
 .qualidade_lista{
     margin-top: 30px;
+    overflow: auto; /* clear-fix */
+    padding-bottom: 30px;
 }
 
 .qualidade_lista li {

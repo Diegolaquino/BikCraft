@@ -45,6 +45,7 @@ img {
 	text-transform: uppercase;
 	text-align: center;
 	margin-bottom: 40px;
+	margin-top: 66px;
 }
 
 .subtitulo:after {
@@ -232,6 +233,7 @@ img {
 .call {
 	padding-top: 40px;
 	text-align: center;
+	padding-bottom: 30px;
 	clear: both;
 }
 
@@ -267,6 +269,7 @@ img {
 
 .qualidade {
 	padding: 60px 0;
+	
 }
 
 .qualidade:after {

@@ -1,97 +1,136 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>BikCraft - Portfolio</title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="css/reset.css">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/grid.css">
-        <link rel="stylesheet" href="css/portfolio.css">
-        <link rel="stylesheet" href="css/responsivo.css">
-    </head>
-    <body>
-        <header class="header">
-            <div class="container">
-                <a href="index.html" class="grid-4">
-                    <img src="img/bikcraft.png" />
-                </a>
-                <nav class="header_menu grid-12">
-                    <ul>
-                        <li><a href="sobre.html">Sobre</a></li>
-                        <li><a href="produtos.html">Produtos</a></li>
-                        <li><a href="portfolio.html" class="menu_ativo">Portfolio</a></li>
-                        <li><a href="contato.html">Contato</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
-        <section class="introducao-interna interna_portfolio">
-            <div class="container">
-                <h1>Portfolio</h1>
-                <p>conheça todos os nossos produtos</p>
-            </div>
-        </section>
-        <section class="container">
-            <blockquote class="quote_clientes">
-                <p>“Gostaria de enfatizar que a complexidade dos estudos efetuados faz parte de um processo de gerenciamento das novas proposições.”</p>
-                <cite>Barbara Moss</cite>
-            </blockquote>
-        </section>
 
-        <section class="portfolio">
-            <div class="container">
-                <ul class="portfolio_lista">
-                    <li class="grid-8"><img src="img/portfolio/bike-cesta.jpeg" alt="bicicleta retrô"/></li>
-                    <li class="grid-8"><img src="img/portfolio/bike-cesta-frente.jpeg" alt="bicicleta retrô"/></li>
-                    <li class="grid-16"><img src="img/portfolio/bike-verde.jpeg" alt="bicicleta retrô"/></li>
+<head>
+    <title>BikCraft - Portfolio</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <link rel="stylesheet" href="css/responsivo.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <a href="index.html" class="grid-4">
+                <img src="img/bikcraft.png" />
+            </a>
+            <nav class="header_menu grid-12">
+                <ul>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="portfolio.html" class="menu_ativo">Portfolio</a></li>
+                    <li><a href="contato.html">Contato</a></li>
                 </ul>
-            </div>
-        </section>
+            </nav>
+        </div>
+    </header>
+    <section class="introducao-interna interna_portfolio">
+        <div class="container">
+            <h1>Portfolio</h1>
+            <p>conheça todos os nossos produtos</p>
+        </div>
+    </section>
+    <section class="container">
+        <ul class="rslides">
+            <li>
+                <blockquote class="quote_clientes">
+                    <p>“Gostaria de enfatizar que a complexidade dos estudos efetuados faz parte de um processo de
+                        gerenciamento das novas proposições.”</p>
+                    <cite>Barbara Moss</cite>
+                </blockquote>
+            </li>
+            <li>
+                <blockquote class="quote_clientes">
+                    <p>“A palavra deriva do grego; bi (dois) e kyklos (rodas); do inglês bicycle com o diminutivo
+                        francês bicyclette, foi adaptado do castelhano como bicicleta. ”</p>
+                    <cite>Diego Aquino</cite>
+                </blockquote>
+            </li>
+            <li>
+                <blockquote class="quote_clientes">
+                    <p>“Com um conjunto de elos metálicos e flexíveis é formado a corrente da bicicleta (corrente de
+                        roletes). A corrente faz a conexão entre a coroa fixada na pedivela e a catraca ou o cassete na
+                        roda traseira.”</p>
+                    <cite>Pietro Aquino</cite>
+                </blockquote>
+            </li>
+        </ul>
 
-        <section class="quebra">
-            <blockquote class="quote-externo container">
-                <p>“Não tenha nada em sua casa que você
-                    não considere útil ou acredita ser bonito.”</p>
-                <cite>William Morris</cite>
-            </blockquote>
-        </section>
+    </section>
 
-        <footer>
-            <div class="footer">
-                <div class="container">
-                    <div class="grid-8 footer_historia">
-                        <h3>Nossa História</h3>
-                        <p>
-                            O verdadeiro segredo da felicidade está em ter um genuíno interesse por
-                            todos os detalhes da vida cotidiana. Interesse por todos os detalhes da vida cotidiana.
-                        </p>
+    <section class="portfolio">
+        <div class="container">
+            <ul class="portfolio_lista rslides_portfolio">
+                <li>
+                    <div class="grid-8"><img src="img/portfolio/bike-cesta.jpeg" alt="bicicleta retrô" /></div>
+                    <div class="grid-8"><img src="img/portfolio/bike-cesta-frente.jpeg" alt="bicicleta retrô" /></div>
+                    <div class="grid-16"><img src="img/portfolio/bike-verde.jpeg" alt="bicicleta retrô" /></div>
+                </li>
+            </ul>
+        </div>
+    </section>
 
-                    </div>
-                    <div class="grid-4 footer_contato">
-                        <h3>Contato</h3>
-                        <ul>
-                            <li>21 2222-2222</li>
-                            <li>contato@bikcraft.com</li>
-                            <li>Cascadura -RJ</li>
-                        </ul>
-                    </div>
-                    <div class="grid-4 footer_redes">
-                            <h3>Redes Sociais</h3>
-                            <ul>
-                                <li><a href="https://www.facebook.com/" target="_blank"><img src="img/redes-sociais/facebook.png"/></a></li>
-                                <li><a href="https://www.twitter.com/" target="_blank"><img src="img/redes-sociais/twitter.png"/></a></li>
-                                <li><a href="https://instagram.com/" target="_blank"><img src="img/redes-sociais/instagram.png"/></a></li>
-                            </ul>
-                        </div>
+    <section class="quebra">
+        <blockquote class="quote-externo container">
+            <p>“Não tenha nada em sua casa que você
+                não considere útil ou acredita ser bonito.”</p>
+            <cite>William Morris</cite>
+        </blockquote>
+    </section>
+
+    <footer>
+        <div class="footer">
+            <div class="container">
+                <div class="grid-8 footer_historia">
+                    <h3>Nossa História</h3>
+                    <p>
+                        O verdadeiro segredo da felicidade está em ter um genuíno interesse por
+                        todos os detalhes da vida cotidiana. Interesse por todos os detalhes da vida cotidiana.
+                    </p>
+
+                </div>
+                <div class="grid-4 footer_contato">
+                    <h3>Contato</h3>
+                    <ul>
+                        <li>21 2222-2222</li>
+                        <li>contato@bikcraft.com</li>
+                        <li>Cascadura -RJ</li>
+                    </ul>
+                </div>
+                <div class="grid-4 footer_redes">
+                    <h3>Redes Sociais</h3>
+                    <ul>
+                        <li><a href="https://www.facebook.com/" target="_blank"><img
+                                    src="img/redes-sociais/facebook.png" /></a></li>
+                        <li><a href="https://www.twitter.com/" target="_blank"><img
+                                    src="img/redes-sociais/twitter.png" /></a></li>
+                        <li><a href="https://instagram.com/" target="_blank"><img
+                                    src="img/redes-sociais/instagram.png" /></a></li>
+                    </ul>
                 </div>
             </div>
-            <div class="copy">
-                <div class="container"> 
-                    <p class="grid-16">Bikcraft 2019 - Alguns direitos reservados.</p>
-                </div>
+        </div>
+        <div class="copy">
+            <div class="container">
+                <p class="grid-16">Bikcraft 2019 - Alguns direitos reservados.</p>
             </div>
-        </footer>
-    
-    </body>
+        </div>
+    </footer>
+    <!-- Javascript -->
+    <script src="https://code.jquery.com/jquery-1.12.4.js"
+        integrity="sha256-Qw82+bXyGq6MydymqBxNPYTaUXXq7c8v3CwiYwLLNXU=" crossorigin="anonymous">
+        </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+    <script>
+        $(function () {
+            $(".rslides").responsiveSlides();
+        });
+    </script>
+</body>
+
 </html>

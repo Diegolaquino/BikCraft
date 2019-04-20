@@ -24,3 +24,25 @@
     float: right;
     font-style: normal;
 }
+
+/*Slides*/
+
+.rslides_tabs {
+    
+}
+
+.rslides_tabs li{
+    
+}
+
+.rslides_tabs li a{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: #fec63e;
+    color: #fec63e;
+    border-radius: 20px;
+    overflow: hidden;
+    text-indent: -200px;
+
+}

@@ -24,6 +24,7 @@ img {
 	text-transform: uppercase;
 	font-weight: bold;
 	letter-spacing: .1em;
+	transition: all .5s ease;
 }
 
 .btn:hover {
@@ -105,6 +106,7 @@ img {
 	font-size: 14px;
 	line-height: 20px;
 	padding: 10px 0;
+	transition: all .5s ease;
 }
 
 .header_menu ul li a:hover {
@@ -257,7 +259,7 @@ img {
 	background: #fec63e;
 }
 
-.portfolio_lista li:last-child {
+.portfolio_lista div:last-of-type {
 	margin-top: 20px;
 }
 
@@ -377,6 +379,7 @@ img {
 	border: 3px solid #fec63e;
 	display: block;
 	padding: 10px;
+	transition: all .5s ease;
 }
 
 .footer_redes ul li a:hover {
@@ -388,3 +391,37 @@ img {
 	background: #fec63e;
 	padding: 20px 0;
 }
+
+/* Slide portfolio */
+.rslides, .rslides_portfolio {
+	position: relative;
+	list-style: none;
+	overflow: hidden;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	}
+  
+  .rslides li, .rslides_portfolio li{
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	position: absolute;
+	display: none;
+	width: 100%;
+	left: 0;
+	top: 0;
+	}
+  
+  .rslides li:first-child , .rslides_portfolio li:first-child{
+	position: relative;
+	display: block;
+	float: left;
+	}
+  
+  .rslides img, .rslides_portfolio img{
+	display: block;
+	height: auto;
+	float: left;
+	width: 100%;
+	border: 0;
+	}

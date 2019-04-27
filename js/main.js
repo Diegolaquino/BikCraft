@@ -10,3 +10,37 @@ $(".rslides").responsiveSlides({
     timeout: 4000,          // Integer: Time between slide transitions, in milliseconds
     pager: true,           // Boolean: Show pager, true or false
   });
+
+  Visibility.onVisible(function(){
+    setTimeout(function(){
+     $(".introducao h1").addClass("animated fadeInDown");
+    }, 400);
+
+    setTimeout(function(){
+      $(".introducao blockquote").addClass("animated fadeInDown");
+     }, 500);
+
+     setTimeout(function(){
+      $(".introducao .btn").addClass("animated fadeInDown");
+     }, 1000);
+
+     setTimeout(function(){
+      $(".animar").addClass("animated fadeInDown");
+     }, 1000);
+
+     setTimeout(function(){
+      $(".animarContato").addClass("animated fadeInDown");
+     }, 80);
+
+     setTimeout(function(){
+      $(".animar-interno").addClass("animated fadeInDown");
+     }, 10);
+
+     setTimeout(function(){
+      $(".introducao-interna p").addClass("animated fadeInDown");
+     }, 10);
+
+     setTimeout(function(){
+      $(".introducao-interna h1").addClass("animated fadeInDown");
+     }, 10);
+  });
